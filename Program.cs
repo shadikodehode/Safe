@@ -1,37 +1,37 @@
 ﻿using System;
+using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
-
-class Safe
-{
-    public static void Main()
+    class Program
     {
-        try
+        static void Main(string[] args)
         {
-            using (StreamReader sr = new StreamReader (@"crack.txt"))
+
+        int number = 0;
+        int start = 50;
+       
+            
+         using (StreamReader sr = new("crack.txt"))
+        {
+            string line; 
+            while ((line = sr.ReadLine()) != null)
             {
-                string? line;
-                        
-                while ((line = sr.ReadLine()) != null)
+                if(line.Contains("R"))
                 {
-                    
-                  if(String.IsNullOrEmpty("R"))
-                    {
-                        Console.WriteLine("success");
-                    }
-                    else
-                    {
-                        Console.WriteLine("error");
-                    }
+                    Console.WriteLine(start+50);
+                }
+                if (line.Contains("L"))
+                {
+                    Console.WriteLine(-50);
                 }
             }
         }
-        catch (Exception e)
-        {
-            Console.WriteLine("the file could not be read:");
-            Console.WriteLine(e.Message);
+         
+       
+            
         }
     }
-}
+
 
 
 

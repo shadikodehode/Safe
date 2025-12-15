@@ -12,3 +12,4 @@ C:\Users\choko\Documents\VSC\csharp\Safe\obj\Debug\net10.0\refint\Safe.dll
 C:\Users\choko\Documents\VSC\csharp\Safe\obj\Debug\net10.0\Safe.pdb
 C:\Users\choko\Documents\VSC\csharp\Safe\obj\Debug\net10.0\Safe.genruntimeconfig.cache
 C:\Users\choko\Documents\VSC\csharp\Safe\obj\Debug\net10.0\ref\Safe.dll
+C:\Users\choko\Documents\VSC\csharp\Safe\obj\Debug\net10.0\Safe.sourcelink.json
